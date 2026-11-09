@@ -70,6 +70,24 @@ class ConstraintsPage extends StatelessWidget {
             ),
           ),
         ),
+        SliverProbe(
+          label: 'F · SliverFillRemaining(hasScrollBody: true)',
+          hub: hub,
+          sliver: SliverFillRemaining(
+            child: Container(
+              color: colorFor(10),
+              padding: const EdgeInsets.all(16),
+              alignment: Alignment.center,
+              child: const Text(
+                'F\n\nscrollExtent is always one full viewport, even though '
+                'E came before it. Its child is sized to what is visible '
+                'right now (remainingPaint), so it grows as you scroll in.',
+                textAlign: TextAlign.center,
+                style: TextStyle(color: Colors.white, fontSize: 15),
+              ),
+            ),
+          ),
+        ),
       ],
     );
   }

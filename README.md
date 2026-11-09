@@ -12,7 +12,7 @@ The home page follows the talk outline (and is itself built from slivers).
 |---|---|
 | **1 · History** | Timeline: from `Block` / `LazyBlock` to today |
 | **2 · Box vs Sliver** | `shrinkWrap` vs slivers (live count of built items) · Constraints inspector (live `SliverConstraints` in / `SliverGeometry` out) · `ListView` is just a `CustomScrollView` |
-| **3 · Catalog** | Lists (builder, separated, fixed, prototype, varied, with timed "jump to end") · Grids · `SliverAppBar` playground · Material 3 app bars · Pinned / Floating / Resizing headers · `SliverFillRemaining` & `SliverFillViewport` · Modifiers · Main / cross axis groups · Animated & reorderable lists · `TreeSliver` · `NestedScrollView` · Cupertino slivers |
+| **3 · Catalog** | Lists (builder, separated, fixed, prototype, varied, with timed "jump to end") · Grids · `SliverAppBar` playground · Material 3 app bars · Pinned / Floating / Resizing headers · `SliverFillRemaining` (incl. load-more spinner, `hasScrollBody` true vs false) & `SliverFillViewport` · Modifiers · Main / cross axis groups · Animated & reorderable lists · `TreeSliver` · `NestedScrollView` · Cupertino slivers |
 | **4 · Build your own** | Level 1: compose slivers · Level 2: `SliverPersistentHeaderDelegate` · Level 3: hand-written `RenderSliver`s (`SliverMyBox`, `SliverPinnedBox`, `SliverParallaxBox`) |
 
 ## Highlights for the talk

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../widgets/common.dart';
+import 'load_more_page.dart';
 
 class FillPage extends StatelessWidget {
   const FillPage({super.key});
@@ -14,6 +15,11 @@ class FillPage extends StatelessWidget {
           'SliverFillRemaining',
           'Empty states & footers at the bottom',
           (_) => const _FillRemainingPage(),
+        ),
+        DemoChoice(
+          'Load more (hasScrollBody)',
+          'Infinite scroll spinner: true vs false',
+          (_) => const LoadMorePage(),
         ),
         DemoChoice(
           'SliverFillViewport',
